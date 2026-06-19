@@ -9,7 +9,7 @@ A lightweight, automated preventive malware and IoC (Indicator of Compromise) sc
 
 1. Clone this repository:
 ```
-git clone https://github.com/sashkomster-lab/aur-shield.git && cd aur-shield
+git clone https://github.com/sashkomster-lab/aur-shield.git
 cd aur-shield
 ```
 Build and install the package globally using makepkg:
