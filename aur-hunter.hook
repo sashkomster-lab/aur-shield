@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Перевірка завантажених архівів на малварь (AUR-Shield)...
+When = PreTransaction
+Exec = /usr/bin/aur-shield --check
+NeedsTargets = true
+AbortOnFail = true
