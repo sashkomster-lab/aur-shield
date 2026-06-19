@@ -19,7 +19,7 @@ makepkg -si
 This will automatically compile the script, install dependencies, and set up the Pacman hook.
 
 
-###Method 2: Quick Manual Install
+### Method 2: Quick Manual Install
 If you prefer to install it manually without using python-setuptools:
 
 Copy the script to your local bin and make it executable:
