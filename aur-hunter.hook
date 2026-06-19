@@ -5,7 +5,7 @@ Type = Package
 Target = *
 
 [Action]
-Description = Перевірка завантажених архівів на малварь (AUR-Shield)...
+Description = Checking downloaded archives for malware (AUR-Shield)...
 When = PreTransaction
 Exec = /usr/bin/aur-shield --check
 NeedsTargets = true
