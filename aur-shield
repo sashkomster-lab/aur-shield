@@ -139,7 +139,8 @@ def run_update():
         with urllib.request.urlopen(req, timeout=15) as response:
             data = json.loads(response.read().decode())
             added_count = 0
-            keywords = ["curl\\\\s+-", "base64\\\\s+-d", "eval\\s+", "atomic-lock-file", "axios", "got"]
+            # ВИПРАВЛЕНО: прибрали "curl\\\\s+-" зі списку ключових слів
+            keywords = ["base64\\\\s+-d", "eval\\s+", "atomic-lock-file", "axios", "got"]
             
             for item in data.get("items", []):
                 desc = item.get("description") or ""
