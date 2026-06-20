@@ -1,0 +1,1 @@
+(?:^|\s)(?:curl|wget|fetch)\s+-[A-Za-z0-9]+|(?:^|\s)(?:curl|wget|fetch)\s+["']?https?://|/dev/tcp
