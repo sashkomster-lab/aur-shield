@@ -58,3 +58,13 @@ echo "package-name" | aur-shield --check
 Logs & Signatures
 Local Logs: Saved to ``` ~/.cache/aur-shield.log ``` if any critical threats are blocked.
 Custom Rules: You can modify or add your own regex rules in ```~/.config/aur-shield/signatures.txt```
+
+### Uninstall
+To completely remove the application and system configurations:
+```
+sudo pacman -R aur-shield
+```
+```
+rm -rf ~/.config/aur-shield
+rm -rf ~/.cache/aur-shield.log
+```
