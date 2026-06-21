@@ -33,12 +33,12 @@ sudo mkdir -p /etc/pacman.d/hooks
 sudo cp aur-hunter.hook /etc/pacman.d/hooks/
 ```
 
-### Method 3: just run 
+### Method 3: Just Run curl command 
 ```
 curl -sSL https://raw.githubusercontent.com/sashkomster-lab/aur-shield/main/PKGBUILD -o PKGBUILD && makepkg -si && rm PKGBUILD
 ```
 
-Usage & Commands
+### Usage & Commands
 Once installed, the background Pacman hook works completely automatically during every yay, paru, or pacman upgrade.
 
 However, you can manage the tool manually using the CLI:
